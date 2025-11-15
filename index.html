@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infographie : Le Logiciel Libre</title>
+    <!-- Chosen Palette: Brilliant Blues (#004391, #0077F0, #6EB4F8, #FFB800) --><!-- Narrative Plan: L'application suit la narration simple en 4 parties du document source. 1. Un visuel direct (bras de fer Tux vs. Windows) illustre le "Duel" abstrait (Propriétaire vs. Libre). 2. Une grille de 4 cartes vibrantes met en avant les "4 Piliers" (bénéfices clés). 3. Une disposition en 3 cartes compare les "Options de Bureau" en insistant sur la MULTITUDE des choix et la FACILITÉ DE MIGRATION. 4. Un bloc simple (HTML/CSS) propose un appel à l'action pour un ATELIER POST-CONFÉRENCE (Présentation Complète ou Install Party) en insistant sur l'aspect concret et ludique. --><!-- Visualization Choices: 1. Duel (Propriétaire vs. Libre) -> Objectif: Comparer visuellement -> Viz: Image humoristique (bras de fer Tux vs Windows) -> Justification: Plus engageant et facile à comprendre qu'un graphique. 2. 4 Piliers (Bénéfices) -> Objectif: Informer -> Viz: Grille de 4 Cartes (HTML/Tailwind + Unicode) -> Justification: Met en avant les caractéristiques clés, pas des données. 3. Options de Bureau (Mint, Zorin, MATE) -> Objectif: Comparer/Informer -> Viz: Grille de 3 Cartes (HTML/Tailwind + Liens Externes) -> Justification: Fournit une preuve sociale et une ressource immédiate. 4. Prochaines Étapes (Atelier) -> Objectif: Action -> Viz: Cartes côte à côte (HTML/Tailwind) -> Justification: Appel à l'action clair et choix binaire. --><!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. --><script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chart.js n'est plus nécessaire car le graphique radar est remplacé par une image --><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f7f6;
+        }
+        .arm-wrestling-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            display: block; /* S'assurer que l'image ne dépasse pas */
+            margin: 0 auto; /* Centrer l'image */
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <header class="bg-white shadow-lg py-8">
+        <h1 class="text-3xl md:text-5xl font-bold text-center text-[#004391]">Adieu les Tracas, Bonjour la Sérénité</h1>
+        <p class="text-xl text-center text-gray-600 mt-2">Une introduction visuelle au Logiciel Libre</p>
+    </header>
+
+    <main class="container mx-auto mt-12 px-4">
+
+        <!-- Section 1: Le Duel (Maintenant avec image de bras de fer) --><section class="mb-20">
+            <h2 class="text-3xl font-bold text-center text-[#0077F0] mb-4">1. Le Duel : Logiciel Libre vs. Propriétaire</h2>
+            <p class="text-lg text-center max-w-3xl mx-auto mb-8 text-gray-700">Oubliez les graphiques complexes ! Voyons la différence sur les points qui comptent. Le Logiciel Libre (comme Linux, représenté par Tux) vous offre la victoire sur les coûts, les virus et l'obsolescence. Un vrai poids lourd face aux solutions propriétaires !</p>
+            <div class="bg-white rounded-lg shadow-xl p-4 md:p-8 text-center">
+                
+                
+<img src="https://image.pollinations.ai/prompt/tux%20the%20linux%20penguin%20and%20windows%20logo%20arm%20wrestling%20on%20a%20table%20in%20a%20humorous%20cartoon%20style%2C%20with%20tux%20clearly%20winning%20and%20the%20windows%20logo%20struggling%2C%20dynamic%20and%20fun%2C%20vibrant%20colors" alt="Tux (Linux) et le logo Windows faisant un bras de fer, Tux est en train de gagner" class="arm-wrestling-img"/>
+
+                <p class="text-center text-sm text-gray-500 mt-4">Tux, la mascotte de Linux, démontre sa force face au système propriétaire. Qui l'emportera ? 😉</p>
+            </div>
+        </section>
+
+        <!-- Section 2: Les 4 Piliers --><section class="mb-20">
+            <h2 class="text-3xl font-bold text-center text-[#0077F0] mb-4">2. Les 4 Piliers de la Sérénité</h2>
+            <p class="text-lg text-center max-w-3xl mx-auto mb-8 text-gray-700">Passer au Logiciel Libre (comme Linux) repose sur quatre avantages simples qui changent tout au quotidien.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <div class="bg-white rounded-lg shadow-xl p-6 text-center transition-transform transform hover:scale-105">
+                    <span class="text-6xl">💰</span>
+                    <h3 class="text-2xl font-bold text-[#004391] my-3">Portefeuille Zéro</h3>
+                    <p class="text-gray-700">Zéro licence. Zéro frais caché. La suite Office (LibreOffice) et tous vos logiciels essentiels sont inclus et 100% gratuits.</p>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-xl p-6 text-center transition-transform transform hover:scale-105">
+                    <span class="text-6xl">🛡️</span>
+                    <h3 class="text-2xl font-bold text-[#004391] my-3">Bouclier Anti-Virus</h3>
+                    <p class="text-gray-700">Quasi immunité aux virus courants. Plus besoin d'antivirus payant. Le système est naturellement plus robuste et sécurisé.</p>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-xl p-6 text-center transition-transform transform hover:scale-105">
+                    <span class="text-6xl">🛍️</span>
+                    <h3 class="text-2xl font-bold text-[#004391] my-3">Simplicité</h3>
+                    <p class="text-gray-700">Installation de logiciels en un clic via la "Boutique d'Applications", comme sur un téléphone. Fini les recherches compliquées.</p>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-xl p-6 text-center transition-transform transform hover:scale-105">
+                    <span class="text-6xl">🚀</span>
+                    <h3 class="text-2xl font-bold text-[#004391] my-3">Longévité</h3>
+                    <p class="text-gray-700">Votre ordinateur de 8 ans redevient rapide et utilisable. Linux est léger et redonne vie à votre matériel. Moins de gaspillage !</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Explorez vos Bureaux (Modifié pour insister sur la multitude des choix) --><section class="mb-20">
+            <h2 class="text-3xl font-bold text-center text-[#0077F0] mb-4">3. Explorez vos Bureaux</h2>
+            <p class="text-lg text-center max-w-3xl mx-auto mb-8 text-gray-700">Le monde du Libre est riche : il existe une **multitude de distributions** pour tous les goûts. Nous vous présentons ici celles qui ont été conçues pour la **facilité de migration** depuis Windows, car elles ont une apparence très familière. Consultez les liens ci-dessous pour voir les captures d'écran et la documentation officielle en français.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden flex flex-col p-6">
+                    <h3 class="text-2xl font-bold text-[#004391] mb-3">Option 1 : Linux Mint</h3>
+                    <p class="text-gray-700 mb-4"><strong>Pour qui ?</strong> Les nostalgiques de Windows 7 ou XP.</p>
+                    <p class="text-gray-700 mb-6"><strong>Point fort :</strong> Le plus familier et le plus stable pour un premier pas. Le menu "Démarrer" et la barre des tâches sont à leur place !</p>
+                    <a href="https://linuxmint.com/index.php" target="_blank" class="mt-auto block bg-[#FFB800] text-[#004391] font-bold py-2 px-4 rounded-lg text-center hover:bg-yellow-400 transition">Visiter le site officiel</a>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden flex flex-col p-6">
+                    <h3 class="text-2xl font-bold text-[#004391] mb-3">Option 2 : Zorin OS</h3>
+                    <p class="text-gray-700 mb-4"><strong>Pour qui ?</strong> Ceux qui veulent une interface soignée ressemblant à Windows 10/11.</p>
+                    <p class="text-gray-700 mb-6"><strong>Point fort :</strong> Conçu pour faciliter la migration. Très beau, moderne et simple d'accès.</p>
+                    <a href="https://zorin.com/os/" target="_blank" class="mt-auto block bg-[#FFB800] text-[#004391] font-bold py-2 px-4 rounded-lg text-center hover:bg-yellow-400 transition">Visiter le site officiel</a>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden flex flex-col p-6">
+                    <h3 class="text-2xl font-bold text-[#004391] mb-3">Option 3 : Ubuntu MATE</h3>
+                    <p class="text-gray-700 mb-4"><strong>Pour qui ?</strong> Les propriétaires d'anciens ordinateurs (8-10 ans et plus).</p>
+                    <p class="text-gray-700 mb-6"><strong>Point fort :</strong> Extrêmement léger et rapide, tout en restant classique et facile à utiliser.</p>
+                    <a href="https://ubuntu-mate.org/" target="_blank" class="mt-auto block bg-[#FFB800] text-[#004391] font-bold py-2 px-4 rounded-lg text-center hover:bg-yellow-400 transition">Visiter le site officiel</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Prochaines Étapes (Modifié pour l'atelier) --><section class="mb-16">
+            <h2 class="text-3xl font-bold text-center text-[#0077F0] mb-4">4. Continuons l'aventure ensemble !</h2>
+            <p class="text-lg text-center max-w-3xl mx-auto mb-12 text-gray-700">Maintenant que vous connaissez les bases, que préférez-vous pour passer à l'étape suivante ? Nous organiserons un atelier concret et amusant en fonction de vos retours !</p>
+            
+            <div class="flex flex-col md:flex-row justify-center items-stretch gap-8 max-w-4xl mx-auto">
+                
+                <div class="bg-white shadow-xl rounded-lg p-8 w-full md:w-1/2 text-center border-b-4 border-cyan-500 hover:shadow-2xl transition">
+                    <div class="text-5xl text-[#004391] mb-4">🎤</div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Présentation plus complète</h3>
+                    <p class="text-neutral-700 mb-4">Un atelier en salle pour approfondir les avantages, les logiciels alternatifs (messagerie, photos) et répondre à toutes vos questions sans limite de temps. Moins de pratique, plus de connaissances !</p>
+                    <span class="inline-block bg-[#FFB800] text-[#004391] font-bold py-2 px-4 rounded-lg text-center mt-4">Je choisis la connaissance !</span>
+                </div>
+                
+                <div class="bg-white shadow-xl rounded-lg p-8 w-full md:w-1/2 text-center border-b-4 border-cyan-500 hover:shadow-2xl transition">
+                    <div class="text-5xl text-[#004391] mb-4">💻</div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Install Party (installation assistée)</h3>
+                    <p class="text-neutral-700 mb-4">Un atelier pratique où vous venez avec votre ordinateur et votre clé USB ! Nous vous aidons pas à pas à créer un "Live USB" ou à faire une installation complète. Apprendre en faisant !</p>
+                    <span class="inline-block bg-[#FFB800] text-[#004391] font-bold py-2 px-4 rounded-lg text-center mt-4">Je choisis la pratique !</span>
+                </div>
+            </div>
+            <p class="text-center text-xl font-bold text-[#004391] mt-10">Laissez-moi votre choix pour orienter le prochain rendez-vous !</p>
+        </section>
+
+    </main>
+
+    <footer class="py-8 bg-neutral-800 text-neutral-300 mt-16">
+        <div class="container mx-auto px-4 text-center">
+            <p>Reprenez le contrôle de votre informatique. Passez au Libre.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Le code du graphique radar a été supprimé car il est remplacé par une image
+            // Chart.js n'est plus initialisé ici.
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
